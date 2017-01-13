@@ -6,20 +6,15 @@ The content of developer portfolio can be configured using a single JSON model f
 
 ### [Live preview](http://bertrandmartel.github.io/developer-portfolio)
 
-## Getting Started
+## Get Started
 
-To begin using this template, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/bertrandmartel/developer-portfolio.git`
-* Fork the repo
-
-## Run the template locally
-
-Install dependencies and start a local http server to test your application :
 ```
+git clone https://github.com/bertrandmartel/developer-portfolio.git
+cd developer-portfolio
 npm start
 ```
 
-Server runs by default on [localhost:8000](http://localhost:8000)
+Local http server runs by default on [localhost:8000](http://localhost:8000)
 
 ## Update content
 
