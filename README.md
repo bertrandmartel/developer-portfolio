@@ -2,7 +2,7 @@
 
 Developer portfolio is a one page developer portfolio based on [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) using BootStrap & AngularJS.
 
-The content of developer portfolio can be configured using a single JSON model file under [`app/js/model.json`](https://github.com/akinaru/developer-portfolio/blob/master/app/js/model.json)
+The content of developer portfolio can be configured using a single JSON model file under [`app/js/model.json`](https://github.com/bertrandmartel/developer-portfolio/blob/master/app/js/model.json)
 
 [Live preview](http://bertrandmartel.github.io/developer-portfolio)
 
@@ -23,7 +23,7 @@ Server runs by default on [localhost:8000](http://localhost:8000)
 
 ## Update content
 
-You only need to modify `model.json` in [`app/js/model.json`](https://github.com/akinaru/developer-portfolio/blob/master/app/js/model.json) to update porfolio content.
+You only need to modify `model.json` in [`app/js/model.json`](https://github.com/bertrandmartel/developer-portfolio/blob/master/app/js/model.json) to update porfolio content.
 
 The model includes the following fields :
 
