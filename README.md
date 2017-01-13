@@ -4,7 +4,7 @@ Developer portfolio is a one page developer portfolio based on [Freelancer](http
 
 The content of developer portfolio can be configured using a single JSON model file under [`app/js/model.json`](https://github.com/bertrandmartel/developer-portfolio/blob/master/app/js/model.json)
 
-[Live preview](http://bertrandmartel.github.io/developer-portfolio)
+### [Live preview](http://bertrandmartel.github.io/developer-portfolio)
 
 ## Getting Started
 
