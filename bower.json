@@ -1,0 +1,14 @@
+{
+  "name": "developer-portfolio",
+  "description": "A one page configurable HTML/AngularJS theme for developers",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bertrandmartel/developer-portfolio",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "bootstrap": "3.3.x",
+    "font-awesome": "^4.7.0"
+  }
+}

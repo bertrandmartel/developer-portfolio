@@ -1,0 +1,794 @@
+{
+    "name": "John Doe",
+    "services": [{
+        "name": "Github",
+        "link": "https://github.com/bertrandmartel",
+        "font": "fa-github"
+    }, {
+        "name": "Stack Overflow",
+        "link": "http://stackoverflow.com/users/2614364/bertrand-martel",
+        "font": "fa-stack-overflow"
+    }, {
+        "name": "Play Store",
+        "link": "https://play.google.com/store/apps/developer?id=Bertrand+Martel",
+        "font": "fa-android"
+    }, {
+        "name": "Bintray",
+        "link": "https://bintray.com/bertrandmartel/maven",
+        "font": "fa-download"
+    }],
+    "title": "Software Engineer",
+    "copyright": "Copyright © John Doe 2017",
+    "email": "johndoe@gmail.com",
+    "location": {
+        "city": "Paris",
+        "country": "France"
+    },
+    "social": [{
+        "link": "https://plus.google.com/110241970161800360513",
+        "font": "fa-google-plus"
+    }, {
+        "link": "https://fr.linkedin.com/in/bertrand-martel-66445068",
+        "font": "fa-linkedin"
+    }],
+    "openSourceLimit": 5,
+    "openSourceShowMore": 5,
+    "appsLimit": 5,
+    "appsShowMore": 5,
+    "sections": [{
+        "id": "about",
+        "name": "About"
+    }, {
+        "id": "technologies",
+        "name": "Technologies"
+    }, {
+        "id": "experience",
+        "name": "Experience"
+    }, {
+        "id": "education",
+        "name": "Education"
+    }, {
+        "id": "opensource",
+        "name": "Open Source"
+    }, {
+        "id": "software",
+        "name": "Apps/Software"
+    }, {
+        "id": "contact",
+        "name": "Contact"
+    }],
+    "about": {
+        "description": "Software engineer at Bouygues Telecom's Innovation Lab, I've been working on the following subjects :",
+        "tags": [{
+            "name": "Smart Home",
+            "font": "fa-home"
+        }, {
+            "name": "IoT",
+            "font": "fa-mobile"
+        }, {
+            "name": "Connected Objects",
+            "font": "fa-link"
+        }, {
+            "name": "APIs",
+            "font": "fa-plug"
+        }, {
+            "name": "backend",
+            "font": "fa-server"
+        }, {
+            "name": "Android applications",
+            "font": "fa-android"
+        }, {
+            "name": "Bluetooth",
+            "font": "fa-bluetooth"
+        }]
+    },
+    "languages": [
+        "Java",
+        "C++",
+        "C",
+        "JavaScript",
+        "Makefile",
+        "Shell"
+    ],
+    "sort": [
+        "Most stars",
+        "Most recent",
+        "Oldest"
+    ],
+    "technologies": [
+        "Android",
+        "Java",
+        "C++",
+        "C",
+        "JavaScript",
+        "Bash",
+        "Linux",
+        "MongoDB",
+        "NodeJS",
+        "Docker"
+    ],
+    "experience": [{
+        "dateBegin": "2013-10-01",
+        "dateEnd": "",
+        "description": "Software Engineer at the Innovation Lab of Bouygues Telecom",
+        "tags": [
+            "C++",
+            "Android",
+            "C",
+            "Zwave",
+            "Enocean",
+            "Bluetooth",
+            "Bluetooth-Low-Energy",
+            "Apache-felix",
+            "OSGI",
+            "Websocket",
+            "Server",
+            "NodeJS",
+            "JavaScript",
+            "Web",
+            "USB",
+            "Driver",
+            "Home-automation",
+            "IoT",
+            "Google-APIs",
+            "QT",
+            "OpenVPN",
+            "AndroidTV",
+            "Google-Analytics",
+            "MongoDB",
+            "Embedded Linux",
+            "Android NDK",
+            "Backend"
+        ],
+        "image": "assets/images/company.png"
+    }, {
+        "dateBegin": "2013-04-01",
+        "dateEnd": "2013-09-01",
+        "description": "Intern at the Innovation Lab of Bouygues Telecom",
+        "tags": [
+            "Zwave",
+            "Apache-felix",
+            "OSGI",
+            "Web",
+            "AngularJS",
+            "Spring",
+            "Backend"
+        ],
+        "image": "assets/images/company.png"
+    }],
+    "education": [{
+        "dateBegin": "2008-09-01",
+        "dateEnd": "2013-09-01",
+        "image": "assets/images/school.png",
+        "description": "Master 2 Embedded System ESME Sudria engineering school",
+        "tags": [
+            "C++",
+            "Linux",
+            "Electronics",
+            "VHDL",
+            "Java",
+            "Embedded-Linux",
+            "Android",
+            "Project management",
+            "Python",
+            "Real-time",
+            "FPGA",
+            "Microcontroller"
+        ]
+    }],
+    "opensource": [{
+        "name": "YoutubeTV library",
+        "description": "YouTube embedded player library for Android TV",
+        "link": "https://github.com/bertrandmartel/youtubetv",
+        "tags": [
+            "youtube-API",
+            "android-webview",
+            "JavaScript",
+            "android-tv"
+        ],
+        "stars": 1,
+        "dateBegin": "2016-10-01",
+        "dateEnd": "2016-11-01",
+        "languages": [
+            "Java",
+            "JavaScript"
+        ]
+    }, {
+        "name": "NodeJS service docker template",
+        "tags": [
+            "docker",
+            "docker-compose",
+            "docker-cloud",
+            "bash",
+            "node.js",
+            "sentry",
+            "logstash",
+            "cadvisor",
+            "mongodb"
+        ],
+        "description": "A dockerized NodeJS server template connected to a mongodb service with log export via logstash",
+        "link": "https://github.com/bertrandmartel/node-docker-template",
+        "stars": 0,
+        "dateBegin": "2016-09-01",
+        "dateEnd": "2016-10-01",
+        "languages": [
+            "JavaScript"
+        ]
+    }, {
+        "name": "Dockerized Monitoring platform",
+        "tags": [
+            "docker",
+            "docker-compose",
+            "docker-cloud",
+            "bash",
+            "elasticsearch",
+            "kibana",
+            "prometheus",
+            "grafana",
+            "cadvisor"
+        ],
+        "description": "A set of docker-compose/docker-cloud definitions of monitoring services",
+        "link": "https://github.com/bertrandmartel/docker-monitoring",
+        "stars": 0,
+        "dateBegin": "2016-09-01",
+        "dateEnd": "2016-10-01",
+        "languages": [
+            "Shell"
+        ]
+    }, {
+        "name": "Gitlab CE docker compose",
+        "tags": [
+            "docker",
+            "docker-compose",
+            "docker-cloud",
+            "bash",
+            "gitlab"
+        ],
+        "description": "A fully configurable Gitlab CE docker-compose build",
+        "link": "https://github.com/bertrandmartel/gitlab-docker-compose",
+        "stars": 0,
+        "dateBegin": "2016-09-01",
+        "dateEnd": "2016-10-01",
+        "languages": [
+            "Shell"
+        ]
+    }, {
+        "name": "Jenkins Docker image for Android development",
+        "tags": [
+            "docker",
+            "docker-compose",
+            "docker-cloud",
+            "bash",
+            "jenkins",
+            "jenkins-plugins"
+        ],
+        "description": "A fully configurable Gitlab CE docker-compose build",
+        "link": "https://github.com/bertrandmartel/docker-jenkins-android",
+        "stars": 0,
+        "dateBegin": "2016-09-01",
+        "dateEnd": "2016-10-01",
+        "languages": [
+            "Shell"
+        ]
+    }, {
+        "name": "Fadecandy Android",
+        "tags": [
+            "android",
+            "usb",
+            "fadecandy",
+            "c++",
+            "android-service",
+            "rapidjson",
+            "libwebsockets",
+            "android-ndk"
+        ],
+        "description": "Fadecandy server library to manage your Fadecandy USB controlled LED driver on Android",
+        "link": "https://github.com/bertrandmartel/fadecandy-android",
+        "stars": 10,
+        "dateBegin": "2016-08-01",
+        "dateEnd": "2016-09-01",
+        "languages": [
+            "Java",
+            "C++"
+        ]
+    }, {
+        "name": "JSpeedTest",
+        "tags": [
+            "java",
+            "speed-test",
+            "apache-commons-net"
+        ],
+        "description": "Speed Test client library for Java/Android with HTTP & FTP support",
+        "link": "https://github.com/bertrandmartel/speed-test-lib",
+        "stars": 41,
+        "dateBegin": "2016-03-01",
+        "dateEnd": "2016-09-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Pusher",
+        "tags": [
+            "android",
+            "c",
+            "rfduino",
+            "android-bluetooth",
+            "bluetooth-lowenergy",
+            "arduino",
+            "aes",
+            "android-ndk"
+        ],
+        "description": "Mechanical wall switch button pusher securely controlled via Bluetooth LE with RFduino module/LCD panel & via Android smartphone",
+        "link": "https://github.com/bertrandmartel/pusher",
+        "stars": 2,
+        "dateBegin": "2016-06-01",
+        "dateEnd": "2016-08-01",
+        "languages": [
+            "Java",
+            "C"
+        ]
+    }, {
+        "name": "Bluetooth Remote Control",
+        "tags": [
+            "c",
+            "hid",
+            "bluetooth-lowenergy",
+            "gatt",
+            "android",
+            "crop",
+            "image-compression",
+            "android-ndk"
+        ],
+        "description": "Bluetooth Low Energy remote control based on DK51 board from Nordic Semiconductor with ST7735 1.8 Oled LCD from Adafruit",
+        "link": "https://github.com/bertrandmartel/bluetooth-remote-control",
+        "stars": 2,
+        "dateBegin": "2016-04-01",
+        "dateEnd": "2016-07-01",
+        "languages": [
+            "Java",
+            "C"
+        ]
+    }, {
+        "name": "Android Curl Builder (ACB)",
+        "tags": [
+            "bash",
+            "curl"
+        ],
+        "description": "Set of bash scripts used to cross compile curl & its dependencies for Android platform",
+        "link": "https://github.com/bertrandmartel/android-curl-builder",
+        "stars": 2,
+        "dateBegin": "2016-05-01",
+        "dateEnd": "2016-06-01",
+        "languages": [
+            "Shell"
+        ]
+    }, {
+        "name": "Newhaven OLED display on DK51",
+        "tags": [
+            "c",
+            "spi"
+        ],
+        "description": "Integration of NewHaven OLED 1.69 display on Nordic Semiconductor NRF51 DK board",
+        "link": "https://github.com/bertrandmartel/newhaven-oled-dk51",
+        "stars": 0,
+        "dateBegin": "2016-03-01",
+        "dateEnd": "2016-04-01",
+        "languages": [
+            "C"
+        ]
+    }, {
+        "name": "IoT Foundation for Android",
+        "tags": [
+            "android",
+            "mqtt",
+            "paho",
+            "android-service",
+            "ibm-bluemix"
+        ],
+        "description": "IBM IoT foundation Messaging library for Android",
+        "link": "https://github.com/bertrandmartel/iotf-android",
+        "stars": 2,
+        "dateBegin": "2016-02-01",
+        "dateEnd": "2016-03-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "RFduino Makefile",
+        "tags": [
+            "makefile",
+            "bash",
+            "rfduino"
+        ],
+        "description": "Build your RFduino project with a single Makefile instead of using Arduino IDE",
+        "link": "https://github.com/bertrandmartel/rfduino-makefile",
+        "stars": 0,
+        "dateBegin": "2016-01-01",
+        "dateEnd": "2016-02-01",
+        "languages": [
+            "Makefile",
+            "Shell"
+        ]
+    }, {
+        "name": "BboxApi-Bluemix Notification bridge",
+        "tags": [
+            "android",
+            "android-service",
+            "paho",
+            "mqtt",
+            "ibm-bluemix"
+        ],
+        "description": "Android Service running a MQTT notification client between BboxApi and Bluemix platform",
+        "link": "https://github.com/BboxLab/bboxapi-bluemix-starterkit",
+        "stars": 2,
+        "dateBegin": "2015-12-01",
+        "dateEnd": "2016-02-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "BboxIoT TV app",
+        "tags": [
+            "android"
+        ],
+        "description": "Android TV application using BboxIoT interface library",
+        "link": "https://github.com/BboxLab/bboxiot-tv-app",
+        "stars": 1,
+        "dateBegin": "2015-12-01",
+        "dateEnd": "2016-01-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Bbox IoT library",
+        "tags": [
+            "android"
+        ],
+        "description": "API interface / wrapper for BboxIoT. Bbox IoT is an Android service aiming at controlling and monitoring IoT devices through high-level APIs",
+        "link": "https://github.com/BboxLab/bboxiot-library",
+        "stars": 1,
+        "dateBegin": "2015-11-01",
+        "dateEnd": "2016-01-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Bluetooth HCI decoder library",
+        "tags": [
+            "c++",
+            "hci",
+            "json",
+            "jsoncpp",
+            "cmake"
+        ],
+        "description": "Lightweight Bluetooth HCI decoder library parsing individually HCI frames into JSON format",
+        "link": "https://github.com/bertrandmartel/bluetooth-hci-decoder",
+        "stars": 5,
+        "dateBegin": "2015-11-01",
+        "dateEnd": "2016-01-01",
+        "languages": [
+            "C++"
+        ]
+    }, {
+        "name": "Bluetooth Snoop File streaming decoder Library",
+        "tags": [
+            "c++",
+            "cmake"
+        ],
+        "description": "C++ Bluetooth snoop file streaming decoder",
+        "link": "https://github.com/bertrandmartel/btsnoop-decoder",
+        "stars": 0,
+        "dateBegin": "2015-10-01",
+        "dateEnd": "2016-01-01",
+        "languages": [
+            "C++"
+        ]
+    }, {
+        "name": "Dotti Testing Android app",
+        "tags": [
+            "android",
+            "android-bluetooth"
+        ],
+        "description": "Android app interacting with Dotti bluetooth device. Dotti is a small 8x8 bluetooth led matrice with built in battery made by Witti",
+        "link": "https://github.com/bertrandmartel/dotti-bluetooth-android",
+        "stars": 3,
+        "dateBegin": "2015-10-01",
+        "dateEnd": "2015-12-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Notti Android library",
+        "tags": [
+            "android",
+            "android-bluetooth"
+        ],
+        "description": "Notti library is an embedded Android service for controlling Notti Bluetooth devices. Notti is a small bluetooth led light with built in battery made by Witti",
+        "link": "https://github.com/bertrandmartel/notti-library",
+        "stars": 2,
+        "dateBegin": "2015-10-01",
+        "dateEnd": "2015-12-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Bbox Api client library",
+        "tags": [
+            "java"
+        ],
+        "description": "Java/Android client for Bbox Json API",
+        "link": "https://github.com/bertrandmartel/bbox-api-client",
+        "stars": 4,
+        "dateBegin": "2015-09-01",
+        "dateEnd": "2015-12-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Bluetooth AD frame viewer",
+        "tags": [
+            "android",
+            "android-bluetooth"
+        ],
+        "description": "Android Bluetooth advertizing frame viewer",
+        "link": "https://github.com/bertrandmartel/bluetooth-advert-viewer",
+        "stars": 0,
+        "dateBegin": "2015-10-01",
+        "dateEnd": "2015-11-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "plot-sdl",
+        "tags": [
+            "c",
+            "sdl-2"
+        ],
+        "description": "Small library using SDL2 and SDL_TTF used to plot points into a 2D graph",
+        "link": "https://github.com/bertrandmartel/plot-sdl",
+        "stars": 0,
+        "dateBegin": "2015-10-01",
+        "dateEnd": "2015-11-01",
+        "languages": [
+            "C"
+        ]
+    }, {
+        "name": "Multi Event library",
+        "tags": [
+            "android"
+        ],
+        "description": "Android library used to catch a range of event types (volume, screen state, incoming call, SMS, Wifi connection etc...)",
+        "link": "https://github.com/bertrandmartel/multi-event-library",
+        "stars": 1,
+        "dateBegin": "2015-08-01",
+        "dateEnd": "2015-09-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Flower Power Testing Android app",
+        "tags": [
+            "android",
+            "android-bluetooth"
+        ],
+        "description": "Android app interacting with Flower Power Bluetooth device. Flower power is a small bluetooth device made by Parrot used to monitor your plant with many sensors",
+        "link": "https://github.com/bertrandmartel/flower-power-android",
+        "stars": 3,
+        "dateBegin": "2015-05-01",
+        "dateEnd": "2015-06-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "HTTP streaming decoder library",
+        "tags": [
+            "c++",
+            "qt",
+            "http"
+        ],
+        "description": "C++ HTTP streaming decoder library for Qt4/Qt5",
+        "link": "https://github.com/bertrandmartel/http-streaming-decoder",
+        "stars": 0,
+        "dateBegin": "2014-08-01",
+        "dateEnd": "2014-10-01",
+        "languages": [
+            "C++"
+        ]
+    }, {
+        "name": "Websocket non-blocking server library",
+        "tags": [
+            "c++",
+            "qt",
+            "websocket"
+        ],
+        "description": "C++ websocket non-blocking server library for Qt4/Qt5",
+        "link": "https://github.com/bertrandmartel/websocket-non-blocking",
+        "stars": 1,
+        "dateBegin": "2014-08-01",
+        "dateEnd": "2014-10-01",
+        "languages": [
+            "C++"
+        ]
+    }, {
+        "name": "SSL cert generator library",
+        "tags": [
+            "c",
+            "openssl"
+        ],
+        "description": "OpenSSL C++ X509 certificate generator library",
+        "link": "https://github.com/bertrandmartel/ssl-cert-generator-lib",
+        "stars": 1,
+        "dateBegin": "2014-08-01",
+        "dateEnd": "2014-10-01",
+        "languages": [
+            "C"
+        ]
+    }, {
+        "name": "Radiotap Decoder",
+        "tags": [
+            "java",
+            "radiotap"
+        ],
+        "description": "Radiotap Header decoder in Java",
+        "link": "https://github.com/bertrandmartel/radiotap-decoder-java",
+        "stars": 1,
+        "dateBegin": "2014-07-01",
+        "dateEnd": "2014-08-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "Wlan 802.11 Decoder",
+        "tags": [
+            "java",
+            "wlan 802.11"
+        ],
+        "description": "Java WLAN 802.11 decoder",
+        "link": "https://github.com/bertrandmartel/wlan-decoder-java",
+        "stars": 2,
+        "dateBegin": "2014-07-01",
+        "dateEnd": "2014-08-01",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "name": "PCAPNG Decoder Library",
+        "tags": [
+            "java",
+            "pcap-ng"
+        ],
+        "description": "Java PCAPNG decoder library",
+        "link": "https://github.com/bertrandmartel/pcapng-decoder",
+        "stars": 6,
+        "dateBegin": "2014-07-01",
+        "dateEnd": "2014-08-01",
+        "languages": [
+            "Java"
+        ]
+    }],
+    "software": [{
+        "time": "2017-01-01",
+        "name": "YouTv Showcase",
+        "tags": [
+            "youtube-API",
+            "android-webview",
+            "JavaScript",
+            "android-tv"
+        ],
+        "description": "YouTv is a showcase Android TV application for YoutubeTv library, used to embed Youtube video inside Android TV applications",
+        "link": "https://play.google.com/store/apps/details?id=fr.bmartel.youtubetv.showcase",
+        "image": "assets/images/youtv.png",
+        "languages": [
+            "Java",
+            "JavaScript"
+        ]
+    }, {
+        "time": "2016-09-01",
+        "name": "Fadecandy",
+        "tags": [
+            "android",
+            "usb",
+            "fadecandy",
+            "c++",
+            "android-service",
+            "rapidjson",
+            "libwebsockets",
+            "android-ndk"
+        ],
+        "description": "Control your Fadecandy NeoPixel USB driver from your Android device",
+        "link": "https://play.google.com/store/apps/details?id=fr.bmartel.fadecandy",
+        "image": "assets/images/fadecandy.png",
+        "languages": [
+            "Java",
+            "C++"
+        ]
+    }, {
+        "time": "2016-06-01",
+        "name": "Bluetooth Button Pusher",
+        "tags": [
+            "android",
+            "c",
+            "rfduino",
+            "android-bluetooth",
+            "bluetooth-lowenergy",
+            "arduino",
+            "aes",
+            "android-ndk"
+        ],
+        "description": "Wall switch button-pusher securely controlled via Bluetooth LE with RFduino module/LCD panel & via Android smartphone",
+        "link": "https://play.google.com/store/apps/details?id=com.github.akinaru.roboticbuttonpusher",
+        "image": "assets/images/pusher.png",
+        "languages": [
+            "Java",
+            "C"
+        ]
+    }, {
+        "time": "2016-04-01",
+        "name": "Bluetooth nrf51 Remote Control",
+        "tags": [
+            "android",
+            "c",
+            "android-bluetooth",
+            "image-compression",
+            "crop",
+            "android-ndk"
+        ],
+        "description": "Bluetooth Low Energy remote control is based on Nordic Semiconductor NRF51 DK board with an Adafruit shield featuring an OLED LCD 1.8'' screen with a joystick.",
+        "link": "https://play.google.com/store/apps/details?id=com.github.akinaru.bleremote",
+        "image": "assets/images/remote.png",
+        "languages": [
+            "Java",
+            "C"
+        ]
+    }, {
+        "time": "2016-03-01",
+        "name": "Bluetooth LE Analyzer",
+        "tags": [
+            "android",
+            "android-bluetooth",
+            "rfduino"
+        ],
+        "description": "Android app showing Bluetooth advertising packets and measuring reception rate using one RFduino module",
+        "link": "https://play.google.com/store/apps/details?id=com.github.akinaru.bleanalyzer",
+        "image": "assets/images/analyzer.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2016-02-01",
+        "name": "Wifi Access Point for Android TV",
+        "tags": [
+            "android",
+            "leanback",
+            "access-point",
+            "android-tv"
+        ],
+        "description": "An Android TV application used to configure your Wifi Access Point on Bbox Miami",
+        "image": "assets/images/wifi.png",
+        "languages": [
+            "Java"
+        ]
+    }, {
+        "time": "2016-01-01",
+        "name": "HCI Debugger",
+        "tags": [
+            "android",
+            "hci",
+            "android-bluetooth",
+            "android-ndk",
+            "c++"
+        ],
+        "description": "Android app decoding/displaying Bluetooth HCI packets",
+        "link": "https://play.google.com/store/apps/details?id=com.github.akinaru.hcidebugger",
+        "image": "assets/images/hci.png",
+        "languages": [
+            "Java",
+            "C++"
+        ]
+    }],
+    "stackoverflow":{
+        "userlink":"https://stackoverflow.com/users/2614364/bertrand-martel",
+        "flairlink":"https://stackoverflow.com/users/flair/2614364.png?theme=clean",
+        "title":"profile for Bertrand Martel at Stack Overflow, Q&A for professional and enthusiast programmers"
+    }
+}
